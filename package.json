@@ -1,0 +1,22 @@
+{
+  "name": "react-template-engine",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import ./register.js app.js",
+    "dev": "node --watch --import ./register.js app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
+    "@node-loader/babel": "^2.1.0",
+    "express": "^4.19.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
